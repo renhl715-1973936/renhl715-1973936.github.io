@@ -1,0 +1,89 @@
+div{
+    background-color: blueviolet;
+}
+
+body {
+    background-image: url('istockphoto-1284754354-170667a.jpg');
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 200%;
+    font-size: large;
+    background-image: url('pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg');
+}
+
+h3{
+    color: green;
+    font-size: 40px;
+    font-family: 'Passion One';
+    margin-bottom: 0px;
+    background-image: url('v546batch3-mynt-34-badgewatercolor_1.jpg');
+}
+
+li{
+    background-image: url('light-bulbs-on-dark-wooden-260nw-354086042.jpg');
+    font-size: 40px;
+}
+
+#Header{
+    border:solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: 'Passion One', cursive;
+    color: #ffBc00;
+    font-weight: bold;
+}
+
+#LeftNav{
+    border:solid 8px black;
+    width: 400px;
+    float: left;
+    text-align: center;
+}
+
+#leftNav img{
+
+}
+
+#LeftNav ul{
+    list-style-type: none;
+}
+
+#LeftNav h3{
+
+}
+
+#Content{
+    border:solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Footer{
+    border:solid 8px black;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
