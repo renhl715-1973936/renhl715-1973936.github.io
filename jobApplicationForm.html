@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Job Application</title>
+	</head>
+	<body>
+	
+		<h2>Job Application (for being a TA in MATH major).</h2>
+		
+		<form name="input" action="http://gclass.alexburner.com/formtest.php" method="post">
+		
+			<fieldset>
+				<legend>Account</legend>
+				<div class="field">
+					<label>Email (UW Email preferred):</label> 
+					<input type="text" name="email">
+				</div>
+				<div class="field">
+					<label>Password:</label> 
+					<input type="password" name="password">
+				</div>
+				<div class="field">
+					<label>Repeat password:</label> 
+					<input type="password" name="password_r">
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Double Log in Check (optional)</legend>
+				
+                <div>
+                    <label>Select a question from the list below</label><br>
+                        <select name="selectSecurityQuestion">
+                            <option value="" disabled="" selected="">Select from questions below</option>
+                            <option value="0">How old is you aunt?</option>
+                            <option value="1">What is your favorite food?</option>
+                            <option value="2">What is the city you born?</option>
+                            <option value="3">What is your high school's name?</option>
+                            <option value="4">What is your favorite animal?</option>
+                     	</select>
+                     	
+                         <label>Type answer here</label> 
+                         <input type="password" name="answer">
+                    </div>
+                    
+                </div>
+                
+			</fieldset>
+		
+			<fieldset>
+				<legend>Personal Information</legend>
+				<div class="field">
+					<label>Full Name (First, Middle, Last):</label> 
+					<input type="text" name="name">
+				</div>
+				<div class="field">
+					<label>Current Living Address:</label> 
+					<input type="text" name="street">
+				</div>
+				<div class="field">
+					<label>City:</label> 
+					<input type="text" name="city">
+				</div>
+				<div class="field">
+					<label>State:</label> 
+					<select name="state">
+						<option value="" selected="true">Choose a State</option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+					</select>
+				</div>
+				<div class="field">
+					<label>ZIP:</label> 
+					<input type="text" name="zip">
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Other Information</legend>
+				<div class="field">
+					<label>Phone:</label> 
+					<input type="text" name="phone">
+				</div>
+				<div class="field">
+					<label>Date of birth:</label> 
+					<input type="text" name="DOB">
+				</div>
+                <div class="field">
+					<label>Gender (optional):</label> 
+					<input type="text" name="Gender">
+				</div>
+				<div class="field">
+					<label>Driver's License (optional):</label> 
+					<input type="text" name="DiverNumber">
+				</div>
+				<div class="field">
+					<label>SSN (optional):</label> 
+					<input type="text" name="SSN">
+				</div>
+				
+			</fieldset>
+		
+			<fieldset>
+				<legend>Availability</legend>
+				<div class="field">
+					<label>What type of position are you seeking? (check all that apply)</label>
+					<ul>
+						<li><input type="checkbox" name="position_ct" value="Course TA">Course TA</li>
+						<li><input type="checkbox" name="position_clt" value="CLUE Tutor">CLUE Tutor</li>
+						<li><input type="checkbox" name="position_gr" value="Grader">Grader</li>
+					</ul>
+				</div>
+				<div class="field">
+					<label>What periods best fit your schedule?</label>
+					<table>
+						<tbody><tr>
+							<td></td>
+							<th>Sun</th>
+							<th>Mon</th>
+							<th>Tue</th>
+							<th>Wed</th>
+							<th>Thu</th>
+							<th>Fri</th>
+						</tr>
+						<tr>
+							<th>From</th>
+							<td><input type="time" size="5" name="su_from"></td>
+							<td><input type="time" size="5" name="mo_from"></td>
+							<td><input type="time" size="5" name="tu_from"></td>
+							<td><input type="time" size="5" name="we_from"></td>
+							<td><input type="time" size="5" name="th_from"></td>
+							<td><input type="time" size="5" name="fr_from"></td>
+						</tr>
+						<tr>
+							<th>To</th>
+							<td><input type="time" size="5" name="su_until"></td>
+							<td><input type="time" size="5" name="mo_until"></td>
+							<td><input type="time" size="5" name="tu_until"></td>
+							<td><input type="time" size="5" name="we_until"></td>
+							<td><input type="time" size="5" name="th_until"></td>
+							<td><input type="time" size="5" name="fr_until"></td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Courses you are interested in TA for</legend>
+				
+				<div class="field">
+					<label>What courses are you interested in TA for? (check all that apply)</label>
+					<ul>
+						<li><input type="checkbox" name="MATH126" value="MATH126">MATH126</li>
+						<li><input type="checkbox" name="MATH307" value="MATH307">MATH307</li>
+						<li><input type="checkbox" name="MATH308" value="MATH308">MATH308</li>
+						<li><input type="checkbox" name="MATH491" value="MATH491">MATH491</li>
+					</ul>
+				</div>
+				
+			</fieldset>
+			
+			<fieldset>
+                <legend>Grade</legend>
+                <div class="field">
+                    <label>What degree of Math are you curretnly pursuing for?</label>
+                    <ul>
+                        <li><input type="checkbox" name="degree" value="BA">Bachelor of Art</li>
+                        <li><input type="checkbox" name="degree" value="BS">Bachelor of Science</li>
+                    </ul>
+                </div>
+                <div class="field">
+                    <label>Prerequisites Courses Grades</label>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <th>MATH 124</th>
+                            <th>MATH 125</th>
+                            <th>MATH 126</th>
+                            <th>MATH 307</th>
+                            <th>MATH 308</th>
+                            <th>MATH / STAT 394</th>
+                            <th>MATH / STAT 395</th>
+                            <th>MATH / STAT 396</th>
+                        </tr>
+                        <tr>
+                            <th>Your GPA</th>
+                            <td><input type="gpa" size="5" name="math124"></td>
+                            <td><input type="gpa" size="5" name="math125"></td>
+                            <td><input type="gpa" size="5" name="math126"></td>
+                            <td><input type="gpa" size="5" name="math307"></td>
+                            <td><input type="gpa" size="5" name="math308"></td>
+                            <td><input type="gpa" size="5" name="math/stat394"></td>
+                            <td><input type="gpa" size="5" name="math/stat395"></td>
+                            <td><input type="gpa" size="5" name="math/stat396"></td>
+                        </tr>
+                    </table><br>
+
+                    <label>Fill the information below if applicable</label>
+                    <table>
+						<tbody><tr>
+							<td></td>
+							<th>School's full name</th>
+							<th>Overall GPA (out of 4.0)</th>
+                            <th>Program finish time (or project finish time)</th>
+						</tr>
+						<tr>
+							<th>High school</th>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							
+						</tr>
+						<tr>
+							<th>Summer school</th>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+						</tr>
+						<tr>
+							<th>Other</th>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+							<td><textarea name="essay" rows="3" cols="30"></textarea></td>
+						</tr>
+					</tbody>
+					</table>
+                </div>
+            </fieldset>
+			
+			<fieldset>
+				<legend>Additional questions</legend>
+				<div class="field">
+					<label>Do you plan to graduate in the coming Spring or Summer?</label> 
+					<input type="radio" name="grad" value="yes">Yes
+					<input type="radio" name="grad" value="no">No
+				</div>
+				<div class="field">
+					<label>Have you been TA of Math major before?</label> 
+					<input type="radio" name="past_t" value="yes">Yes
+					<input type="radio" name="past_t" value="no">No
+				</div>
+				
+			</fieldset>
+		
+			<fieldset>
+				<legend>Personal Statement</legend>
+				<div class="field">
+					<label>Why do want to be a TA of Math major (100 - 300 words)?</label><br>
+					<textarea name="deserve" rows="6" cols="60"></textarea>
+				</div>
+				<div class="field">
+					<label>What makes you best fit the Math TA position (200 words maximum)?</label><br>
+					<textarea name="project" rows="6" cols="60"></textarea>
+				</div>
+			</fieldset>
+		
+			<input type="submit" value="Submit this form">
+			<input type="submit" value="Clear this form">
+		
+		</form>
+	
+	</body>
+</html>
