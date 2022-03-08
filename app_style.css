@@ -1,0 +1,33 @@
+form{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    line-height: 200%;
+    font-size: large;
+}
+
+tbody{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: greenyellow;
+    background-image: url(https://amath.washington.edu/sites/amath/files/styles/front_slideshow_alternate/public/images/amath_group_with_dubs.jpg?itok=fcEDMzG3&c=b7d464a7e5c99de2bedc25d659366cac);
+}
+
+legend{
+    color: pink;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
